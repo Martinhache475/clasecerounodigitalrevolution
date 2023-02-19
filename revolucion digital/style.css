@@ -15,7 +15,7 @@ h1{
     border-radius: 2%;
     margin-right: 50%;
     padding: 2%;
-    margin-top: 3%;
+    margin-top: 6%;
   text-align: center;
 }
 
@@ -38,6 +38,7 @@ h1{
 .idioms{
     text-align: right;
     margin-right: 3%;
+contain: content;
 }
 
 .container{
@@ -59,3 +60,26 @@ h1{
   float: inline-start;  
   
 }
+
+.conteinerindex{
+    display: flex;
+    align-items: center;
+    
+}
+
+.horarios{
+    background-color: black;
+    color: beige;
+}
+
+
+.img1,.img2,.img3,.img4, .text1,.horarios{
+    padding: 3%;
+    margin:2%;
+    border-color: aquamarine;
+    background-color: grey;
+}
+.horarios{
+    background-color: black;
+}
+
