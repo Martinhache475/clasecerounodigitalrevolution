@@ -39,3 +39,23 @@ h1{
     text-align: right;
     margin-right: 3%;
 }
+
+.container{
+  
+    flex-direction: row;
+    list-style:none;
+    list-style-type: none;
+    position: fixed;
+}
+
+.navbar{
+
+    float: left;
+    background-color: #F6E3CA;
+  float:inline-start;
+  text-align: center;
+  width: 5em;
+  padding: 0 6em;  
+  float: inline-start;  
+  
+}
