@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.boxgrey{
+
+    background-color: gray;
+    padding: 7%;
+}
