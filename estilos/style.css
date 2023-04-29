@@ -12,3 +12,17 @@
     background-color: gray;
     padding: 7%;
 }
+header{
+    color:black;
+    background-color: gray;
+}
+.navi{
+  display: flex;
+ margin-left: 250px;
+align-content: space-between;
+font-size: 10px;
+justify-content: center;
+
+}
+
+
