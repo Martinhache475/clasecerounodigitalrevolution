@@ -1,10 +1,8 @@
-.containers{
-    
+.containers{ 
    justify-items: center;
     padding: 1%;
     flex-direction: row;
     align-items: center;
-   
 }
 
 .padrecard{
@@ -28,7 +26,6 @@
 .contain{
     position: absolute;
     z-index: 1;
-  
 }
 .boxgrey{
 
@@ -38,7 +35,6 @@
     margin-left:-3% ;
     font-size: 10px;
     color: aliceblue;
-
 }
 header{
     color:black;
@@ -50,24 +46,35 @@ header{
 align-content: space-between;
 font-size: 10px;
 justify-content: center;
-
 }
 
 .conf{
     margin-right: 5%;
     display:flex;
-    
-
 }
 
 .mainhead{
     justify-content:right;
-    margin-left: 5%;
-    
+    margin-left: 5%;  
 }
 
 .navtext{
     margin-right: 5%;
 }
+.formu{
+    text-align: center;
+}
 
+.dot{
+    text-decoration: dotted;
+}
 
+.buton {
+    background-color:rgb(161, 209, 89);
+    border: none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    }
