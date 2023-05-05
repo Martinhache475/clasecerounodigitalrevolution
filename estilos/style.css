@@ -1,21 +1,34 @@
 .containers{
-    display: flex;
-    justify-content: space-between;
-    padding: 3%;
+    
+   justify-items: center;
+    padding: 1%;
     flex-direction: row;
     align-items: center;
-    margin: auto;
+   
+}
+
+.padrecard{
+  
+ margin-left: 15%;
+   display: flex;
+   justify-items: center;
 }
 
 .relative{
     position: relative;
     z-index: 2;
-    margin-top:  300px;
+    margin-top:  500px;
+    font-size: 18px;
+   text-align: right;
+ justify-content:flex-end;
+ margin-bottom: 200px;
+ color: rgb(255, 255, 255);
+ text-shadow: 2px 2px 4px black;
 }
 .contain{
     position: absolute;
     z-index: 1;
-
+  
 }
 .boxgrey{
 
