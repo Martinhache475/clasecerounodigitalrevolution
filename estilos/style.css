@@ -1,9 +1,13 @@
 .containers{ 
-   justify-items: center;
+
     padding: 1%;
     flex-direction: row;
-    align-items: center;
+
 }
+
+.oscurecer-img{
+    filter: brightness(40%);
+  }
 
 .padrecard{
   
@@ -28,14 +32,17 @@
     z-index: 1;
 }
 
-.boxgrey{
 
+.boxgrey{
     background-color: gray;
-    padding: 8%;
-    object-fit: contain;
+    padding-bottom: 29.5%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-left:-3% ;
-    font-size: 10px;
+    font-size: 20px;
     color: aliceblue;
+    justify-items: flex-start;
 }
 
 header{
@@ -69,10 +76,22 @@ justify-content: center;
 }
 .formu{
     text-align: center;
+    padding: 3%;
+}
+.honolulu{
+    font-size: 34px;
+}
+.hawaii{
+    font-size: 12px;
+   text-shadow: 1px 1px 2px rgb(43, 43, 43);
+color: rgb(231, 231, 231);
+
+
 }
 
 .dot{
-    text-decoration: dotted;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
 }
 
 .buton {
@@ -84,3 +103,12 @@ justify-content: center;
     font-size: 16px;
     border-radius: 3px;
     }
+
+footer{
+    background-color: rgb(50, 119, 108);
+}
+
+.colored{
+    background-color: rgb(50, 119, 108);
+    padding-bottom: 1%;
+}
