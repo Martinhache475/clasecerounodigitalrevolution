@@ -112,3 +112,28 @@ footer{
     background-color: rgb(50, 119, 108);
     padding-bottom: 1%;
 }
+
+.textmodal{
+    font-size: 10px;
+}
+
+.prueb{
+    color: brown;
+}
+
+/*tickets*/
+
+.tickets{
+    display: flex;
+    justify-content: space-between;
+margin-right: 15%;
+margin-left: 15%;
+}
+
+/*texto anterior al formulario*/
+
+.prevform{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
