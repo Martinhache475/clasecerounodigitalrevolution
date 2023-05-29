@@ -47,30 +47,47 @@
 <br><br><br>
 <!--tickets-->
 <div class="tickets">
+  
 <div class="card" style="width: 18rem;">
-  <div class="card-body shadow p-3 border border-info">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+  <div class="card1">
+  <div class="card-body shadow p-4 border border-info">
+    <h5 class="card-title">Estudiante</h5>
+    <br>
+    <p></p>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
+  <p></p>
+    <h4 class="text-success">80%</h4>
+    <p></p>
+    <h6 class="card-subtitle mb-2 text-body-secondary">*Presentar documentacion</h6>
+  </div>
+</div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card2">
+    <div class="card-body shadow p-4 border border-info">
+      <h5 class="card-title">Trainee</h5>
+      <br>
+      <p></p>
+      <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
+    <p></p>
+      <h4 class="text-success">50%</h4>
+      <p></p>
+      <h6 class="card-subtitle mb-2 text-body-secondary">*Presentar documentacion</h6>
+    </div>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <div class="card-body shadow p-3 border border-success">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div><div class="card" style="width: 18rem;">
-  <div class="card-body shadow p-3 border border-warning-subtle">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+  <div class="card3">
+    <div class="card-body shadow p-4 border border-info">
+      <h5 class="card-title">Junior</h5>
+      <br>
+      <p></p>
+      <h6 class="card-subtitle mb-2 text-body-secondary">Tiene un descuento</h6>
+    <p></p>
+      <h4 class="text-success">15%</h4>
+      <p></p>
+      <h6 class="card-subtitle mb-2 text-body-secondary">*Presentar documentacion</h6>
+    </div>
   </div>
 </div>
 </div>
@@ -88,6 +105,7 @@
   
     <div class="col-3"></div>
     <div class="col-3">
+      <form action="" id="miForm">
       <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="name">
     </div>
     <div class="col-3">
@@ -97,30 +115,57 @@
     <div class="col-3"></div>
     
   <div class="col"></div>
- 
 </div>
+<br>
 <div class="row">
   <div class="col"></div>
  <div class="col">
     <input type="number" class="form-control" placeholder="cantidad" aria-label="cantidad" id="cantidad">
   </div>
   <div class="col">
-    <select id="ope">
+    <select class="form-select" id="ope" aria-label="Default select example">
+      <option selected>Selecciona una opcion</option>
+      <option value="1">Estudiante</option>
+      <option value="2">Trainee</option>
+      <option value="3">junior</option>
+    </select>
+    <!--<select id="ope">
       <option value="1">Estudiante</option>
       <option value="2">Trainee</option>
       <option value="3">Junior</option>
-  </select>
+  </select>-->
   </div>
+ 
   
-  <div class="col"></div>
+  <div class="col">
+    
   </div>
+  </div>
+  <div class="row">
   <div class="col-lg-6 col-xxl-4 my-3 mx-auto">
     <!--<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>-->
     <input type="text" class="form-control" placeholder="resultado" aria-label="resultado" id="resultado">
-  </div> 
-  <div class="d-grid gap-2">
-    <button class="button" type="button" id="calcular" onclick="calcular();">Resumen</button>
   </div>
+</div> 
+ </form>
+<div class="botonresumen">
+<div class="row">
+<div class="col"><div class="d-grid gap-2">
+  <button class="button btn btn-success" type="button" id="calcular" onclick="calcular();">Resumen</button>
+</div></div>
+<div class="col"><div class="d-grid gap-2">
+  <button class="button btn btn-success" type="button" id="miForm" onclick="limpiarFormulario();">Borrar</button>
+</div></div>
+<!--
+  <div class="col-2 col-xxl-4 my-3 mx-auto">
+    <button class="button btn btn-success" type="button" id="calcular" onclick="calcular();">Resumen</button>
+  </div>
+  <div class="col-2 col-xxl-4 my-3 mx-auto">
+    <button class="button btn btn-success" type="button" id="calcular" onclick="calcular();">Resumen</button>
+  </div>
+  <div class="col"></div> -->
+ </div>
+</div>
   <br><br>
 <!--formulario-->
 

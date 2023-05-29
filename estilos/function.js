@@ -32,6 +32,10 @@ function calcular(){
     document.getElementById("resultado").value=result*cantidad;
     alert("hola " + name +" "+ lastname + ". " + "Tu importe es $" + result*cantidad )
 }
+
+function limpiarFormulario() {
+    document.getElementById("miForm").reset();
+  }
     
 
 

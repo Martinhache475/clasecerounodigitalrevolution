@@ -124,16 +124,60 @@ footer{
 /*tickets*/
 
 .tickets{
-    display: flex;
+    display:flex ;
     justify-content: space-between;
-margin-right: 15%;
-margin-left: 15%;
+    margin-right: 16%;
+    margin-left: 16%;
+transition: background-color .5s;
 }
 
 /*texto anterior al formulario*/
 
 .prevform{
-    align-items: center;
-    justify-content: center;
+ 
     text-align: center;
 }
+
+.card1{
+    text-align: center;
+    display: contents;
+      }
+
+.card2{
+        text-align: center;
+        display: contents;
+          }
+
+.card3{
+     text-align: center;
+     display: contents;
+    }
+
+  .card1:hover {
+    background-color: rgb(158, 226, 235);
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    display:flex;
+
+
+  }
+
+  .card2:hover {
+    background-color: rgb(142, 164, 229);
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    display:flex;
+  }
+
+  .card3:hover {
+    background-color: rgb(243, 242, 164);
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    display:flex;
+  }
+
+  .botonresumen{
+    align-content: center;
+    padding-right: 25%;
+    padding-left: 25%;
+  }
